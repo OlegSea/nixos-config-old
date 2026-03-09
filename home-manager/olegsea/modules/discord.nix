@@ -14,21 +14,6 @@
       plugins = {
       };
     };
-    # dorion = {
-    #   # theme = "dark";
-    #   # zoom = "1.1";
-    #   blur = "acrylic"; # "none", "blur", or "acrylic"
-    #   sysTray = true;
-    #   # openOnStartup = true;
-    #   autoClearCache = true;
-    #   disableHardwareAccel = false;
-    #   rpcServer = true;
-    #   rpcProcessScanner = true;
-    #   pushToTalk = true;
-    #   pushToTalkKeys = [ "RControl" ];
-    #   desktopNotifications = true;
-    #   unreadBadge = true;
-    # };
     extraConfig = {
       # Some extra JSON config here
       # ...

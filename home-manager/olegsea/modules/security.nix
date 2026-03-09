@@ -8,7 +8,7 @@
     enable = true;
     settings = {
       # https://github.com/keepassxreboot/keepassxc/blob/develop/src/core/Config.cpp
-      FdoSecrets.Enabled = true;
+      GUI.ApplicationTheme = "classic";
 
       Browser.Enabled = true;
       Browser.AlwaysAllowAccess = true;

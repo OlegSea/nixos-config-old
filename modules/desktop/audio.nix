@@ -1,9 +1,14 @@
-{ config, pkgs, ... }:
+{
+  config,
+  pkgs,
+  nixpgkgs-stable,
+  ...
+}:
 
 {
 
   environment.systemPackages = with pkgs; [
-    # guitarix
+    nixpkgs-stable.legacyPackages.x86_64-linux.guitarix
     qjackctl
     reaper
     helvum
